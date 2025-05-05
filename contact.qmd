@@ -1,0 +1,17 @@
+---
+title: "Mme Goho Mélaine"
+about: 
+  id: contact
+  template: solana
+  image-shape: round
+  image: people/goho-melaine/avatar.jpg
+page-layout: full
+---
+:::{#contact}
+
+📍 Scanner pour accéder à la localisation du DataLab – Anstat
+<center> <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://www.google.com/maps?q=5.3700262,-3.9911452&size=200x200" alt="QR Code Google Maps" width="200"/> </center> <br>
+{{< fa envelope >}}   cae@stat.plan.gouv.ci
+{{< fa phone >}}   (+225) 07-08-63-66-87
+{{< fa map-location-dot >}}   DataLab – Anstat, Plateau, Abidjan, Côte d’Ivoire
+:::

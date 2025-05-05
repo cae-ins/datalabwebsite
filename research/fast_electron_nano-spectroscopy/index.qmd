@@ -1,0 +1,32 @@
+
+---
+title: Analyse des Offres d’Emploi via Web Scraping
+alias: &ALIAS fast_electron_nano-spectroscopy
+image: featured.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../publications/**/*.qmd"
+    - "!../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+![](featured.jpg)
+Grâce à l’automatisation du web scraping, notre équipe extrait et analyse quotidiennement des milliers d’offres d’emploi publiées sur les principales plateformes numériques (Emploi.ci, Novojob, Educarriere, etc.).
+Cette démarche vise à produire des indicateurs fiables, dynamiques et granulaires sur le marché du travail en Côte d’Ivoire : secteurs porteurs, profils les plus demandés, géographie de l’emploi, évolution des types de contrats, etc.
+
+Les données collectées permettent :
+
+D'identifier les tendances sectorielles et géographiques de la demande d’emploi ;
+
+De construire des profils types par catégorie de poste, niveau d’études ou d’expérience ;
+
+D’alimenter des tableaux de bord dynamiques pour appuyer la prise de décision publique et la veille économique.
+
+## Publications associées
+:::{#pubs} 
+:::

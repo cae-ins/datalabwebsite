@@ -1,0 +1,38 @@
+---
+title: Analyse de la Pauvreté à Partir d’Images Satellitaires
+alias: &ALIAS photothermal_spectroscopy_and_microscopy
+image: featured.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../publications/**/*.qmd"
+    - "!../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+
+---
+![](featured.jpg)
+
+L’analyse de la pauvreté par l’imagerie satellitaire repose sur l’extraction de caractéristiques spatiales et environnementales à partir de données optiques (Sentinel-2) et nocturnes (VIIRS). Grâce aux techniques d'apprentissage profond, notamment les réseaux de neurones convolutifs (CNN), il est possible d’associer l’apparence visuelle d’une zone à des indicateurs socioéconomiques observés au niveau des ménages.
+
+Notre approche intègre :
+
+La collecte d’images géoréférencées autour de points GPS issus d’enquêtes de terrain (comme l’EHCVM),
+
+L’extraction de caractéristiques visuelles par transfert d’apprentissage (modèles VGG préentraînés),
+
+La régression ou classification de la pauvreté à partir de ces caractéristiques,
+
+Et l’estimation de taux de pauvreté ou de dépenses de consommation à haute résolution spatiale.
+
+Cette méthodologie ouvre de nouvelles perspectives pour la production de statistiques à faible coût, continues dans l’espace, et actualisables plus fréquemment que les enquêtes traditionnelles. Elle soutient les politiques publiques, le suivi des ODD, et les stratégies de ciblage social.
+
+## Related Publications
+
+:::{#pubs}
+:::

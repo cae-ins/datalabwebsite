@@ -1,0 +1,77 @@
+---
+title: &TITLE Bakayoko Abdoulaye 
+last: Bakayoko
+first: Abdoulaye
+people_group: 
+  - data-engineer
+  - postdoc
+email: ekb123@uw.edu
+
+subtitle: "Data Engineer à l'Anstat | Spécialiste de l'automatisation de la collecte et de l'analyse économique"
+
+altsubtitle: "Graduate Student"
+alteducation: "Ph.D. Chemistry | University of Washington"
+description: |
+  Data Engineer à l’Anstat (Agence Nationale de la Statistique) de Côte d’Ivoire, Bakayoko Abdoulaye conçoit et maintient des infrastructures de traitement et de sécurisation des données statistiques. Il contribue à l’automatisation des processus de collecte, au renforcement de la cybersécurité des systèmes d’information, et à l’exploitation de données massives issues de différentes sources numériques. Son expertise soutient la transformation numérique de l’institution et la production d’indicateurs fiables pour l’aide à la décision publique.
+
+project: "Collecte automatisée de données économiques et modélisation statistique appliquée"
+affiliation: Anstat, Côte d’Ivoire
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ekb123@uw.edu
+---
+
+<hr>
+
+
+:::{#about}
+
+**Bakayoko Abdoulaye** est Data Engineer à l’**Anstat** (Agence Nationale de la Statistique) de Côte d’Ivoire. Spécialisé en cybersécurité et en ingénierie des données, il conçoit des solutions robustes pour le traitement sécurisé des flux massifs de données. Il a précédemment travaillé chez **Orange Côte d'Ivoire**, contribuant à la sécurisation des infrastructures réseau. À l’Anstat, il participe activement à la modernisation de l’architecture Big Data et à l’automatisation des processus de collecte et de traitement statistique.
+
+## Éducation
+- **Ingénieur en Technologies de l’Information et de la Communication**, ESATIC, Abidjan
+
+## Projets
+
+1. **Mise en place d’une infrastructure Big Data à l’Anstat** (Depuis 2024)  
+   - Objectif : Centraliser, sécuriser et automatiser les processus de traitement statistique.  
+   - Actions : Implémentation de pipelines ETL, sécurité des bases de données, documentation technique.  
+   - Impact : Amélioration de la rapidité et de la fiabilité dans la production des indicateurs statistiques.
+
+2. **Audit et sécurisation du système d’information de l’Anstat** (Depuis 2023)  
+   - Objectif : Renforcer la résilience informatique face aux menaces cyber.  
+   - Actions : Tests de vulnérabilité, configuration de pare-feu, mise en œuvre de protocoles de sauvegarde.  
+   - Impact : Réduction du risque de perte de données sensibles et conformité accrue.
+
+3. **Expérience chez Orange Côte d’Ivoire – Ingénierie Réseau et Cybersécurité** (2022–2023)  
+   - Objectif : Support technique sur les infrastructures critiques de télécommunication.  
+   - Actions : Analyse des menaces réseau, gestion des accès et surveillance des anomalies.  
+   - Impact : Acquisition d’une solide expérience en environnement télécom de grande échelle.
+
+4. **Développement de scripts automatisés pour le traitement de logs système** (En cours)  
+   - Objectif : Détecter les anomalies et optimiser la performance des serveurs.  
+   - Actions : Analyse temps réel avec Python, mise en place de dashboards avec ELK Stack.  
+   - Impact : Réduction du temps de détection d’incidents techniques et renforcement du monitoring.
+
+:::
+

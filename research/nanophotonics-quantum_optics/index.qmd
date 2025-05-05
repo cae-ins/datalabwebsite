@@ -1,0 +1,30 @@
+---
+title: Production of the CPI and Analysis of Job Offers Using Data Available on the Web
+alias: &ALIAS nanophotonics-quantum_optics
+image: featured.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../publications/**/*.qmd"
+    - "!../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+![](featured.jpg)
+
+En exploitant les données librement accessibles sur le web, notre travail se concentre sur deux axes complémentaires :
+
+La collecte automatisée des prix à la consommation à partir des plateformes de commerce en ligne, en vue de la production de l’indice des prix à la consommation (IPC), permettant un suivi de l’inflation plus rapide, détaillé et à grande échelle.
+
+L’analyse des offres d’emploi recueillies quotidiennement via le web scraping, afin de produire des indicateurs dynamiques du marché du travail — tels que les compétences les plus recherchées, la répartition géographique des postes, les dynamiques sectorielles et les types de contrats proposés.
+
+Cette double approche renforce l'efficacité de la production statistique nationale, en offrant des alternatives innovantes et peu coûteuses aux méthodes traditionnelles de collecte de données. Les tableaux de bord et indicateurs qui en résultent appuient la conception des politiques publiques, le diagnostic du marché de l’emploi et le suivi macroéconomique.
+
+## Publications associées
+:::{#pubs}
+:::
+

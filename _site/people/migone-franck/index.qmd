@@ -1,0 +1,67 @@
+---
+title: &TITLE Franck Migone
+first: Franck
+last: Migone
+people_group: 
+  - manager
+education: Statistician & Economist | ENSEA, Abidjan
+email: "j.migone@stat.plan.gouv.ci"
+subtitle: Research | Innovation | Data
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:j.migone@stat.plan.gouv.ci
+    - icon: phone
+      text: +225 0777 55 34 45
+      href: tel:+2250777553445
+    - icon: globe
+      text: Website
+      href: https://fajzmigone.github.io
+---
+
+<hr>
+
+:::{#about}
+
+## Education  
+{{< meta education >}}
+
+<br>
+
+## Roles and Responsibilities
+
+Franck Migone is a statistician and economist at the Agence Nationale de la Statistique (ANStat), where he leads and supports projects focused on data-driven innovation. His core responsibilities include:
+
+- Leading research initiatives on labor markets, poverty, and the use of AI in public policy.
+- Coordinating data analysis and statistical modeling for national development indicators.
+- Supervising the development and deployment of data collection platforms and dashboards.
+- Advising on methodologies for official statistics and survey design.
+- Supporting innovation in digital transformation within the statistics agency.
+- Collaborating with national and international partners on research and capacity-building initiatives.
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

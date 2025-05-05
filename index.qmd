@@ -1,0 +1,40 @@
+---
+page-layout: full
+---
+
+<div class="gradient-text">
+
+<div class="welcome-headline">
+Bienvenue au DataLab d'Anstat<br>
+</div>
+<div class="welcome-subheadline">
+L'Excellence au service de la Donnée
+</div>
+</div>
+
+::::{.cmm-background}
+::: {.content-container}
+::: {.welcome }
+
+::: grid
+::: {.g-col-12 .g-col-lg-4 .welcome-text .sand-background style="padding: 20px; font-size: 1.1em;"}
+
+Le **DataLab** d'**Anstat** rassemble une équipe pluridisciplinaire d’experts en **data science**, **data engineering**, **Big Data**, **statistique appliquée**, **machine learning**, **visualisation de données** et **gestion de projets numériques**.
+
+Nous mettons la **donnée** au cœur de l'**innovation économique et sociale**, en concevant des solutions intelligentes, robustes et accessibles pour transformer l'information en **décisions éclairées**.
+
+Notre mission :
+- Explorer et exploiter des données complexes issues d’enquêtes, de capteurs et de sources ouvertes ;
+- Développer des outils analytiques avancés et des visualisations interactives ;
+- Fournir des analyses stratégiques pour soutenir la prise de décision publique et privée ;
+- Promouvoir une culture de l’innovation par la **qualité**, la **fiabilité** et l’**impact**.
+
+**DataLab Anstat** : là où **science**, **technologie** et **stratégie** se rencontrent pour bâtir l'avenir.
+
+:::
+
+:::
+
+:::
+:::
+::::  

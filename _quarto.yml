@@ -1,0 +1,77 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!publications/_template/"
+    - "!people/_template/"
+
+website:
+  title: "Anstat Group"
+  site-url: "https://datalab.anstat.ci"
+  repo-url: "C:/Users/a_doumbia/Documents/Projets/datalabwebsite"  # Utilisation de slashes
+  favicon: "images/favicon.drawio.png"  # Chemin avec barres obliques
+  google-analytics: "UA-177339812-1"
+  twitter-card: true
+  page-navigation: false
+  search: true
+  page-footer: 
+    background: "#F6F5F3"
+    center: © 2024  &middot; Made with {{< fa brands r-project >}} and 
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
+    right:
+      - icon: github
+        href: "C:/Users/a_doumbia/Documents/Projets/datalabwebsite"  # Utilisation de slashes
+
+  navbar:
+    search: true
+    title: false
+    logo: "images/logo.drawio.png"  # Chemin avec barres obliques
+    background: "#F6F5F3"
+    logo-alt: "Masiello Research Group"
+    left:
+      - href: "people/index.qmd"
+        text: "Accueil"
+      - href: "research/index.qmd"
+        text: "À propos"
+      - href: "publications/index.qmd"
+        text: "Projets"
+      - text: "Ressources"
+        href: "dmref/index.qmd"
+      - href: "codes/index.qmd"
+        text: Codes
+      - href: "news/index.qmd"
+        text: "Actualités"
+      - href: "contact.qmd"
+        text: Contact
+
+  sidebar:
+    - id: dmref
+      title: "NSF DMREF"
+      logo-href: "dmref/index.qmd"
+      contents: 
+        - href: "dmref/index.qmd"
+          text: Welcome to DMREF
+        - href: "dmref/people/index.qmd"
+          text: The DMREF Team
+        - href: "dmref/publications/index.qmd"
+          text: DMREF-Related Publications
+        - href: "dmref/codes/index.qmd"
+          text: Computer Codes
+        - href: "dmref/data/index.qmd"
+          text: Team Data
+
+    - id: empty-to-suppress-sidebars-on-other-pages
+
+format:
+  html:
+    theme: 
+      - "styles/custom.scss"
+      - yeti
+    mainfont: Nunito Sans
+    toc: true
+    link-external-newwindow: true
+    date-format: "MMM YYYY"
+    smooth-scroll: true
+    resources:
+      - people/
+

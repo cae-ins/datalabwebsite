@@ -1,0 +1,85 @@
+---
+title: &TITLE Doumbia Abdoulaye
+last: Doumbia
+first: Abdoulaye
+people_group: 
+  - data-scientists
+  
+email: "ab.doumbia@stat.plan.gouv.ci"
+education:
+  - "Master Data Science, Big Data et IA | INPHB, Yamoussoukro | 2021"
+  - "Master Analyse Numérique et Optimisation | Université Nagui Abrogoua | 2017"
+  - "Licence en Mathématiques | Université Nagui Abrogoua | 2016"
+subtitle: "Data Scientist à l'Anstat | Spécialiste de l'automatisation de la collecte et de l'analyse économique"
+description: |
+  Data Scientist à l’Anstat (Agence Nationale de la Statistique) de Côte d’Ivoire, Doumbia Abdoulaye développe et maintient des systèmes automatisés de collecte de données à des fins statistiques et économiques. Il intervient notamment dans la modernisation des outils de suivi des prix, l’analyse des dynamiques du marché de l’emploi via le web scraping, ainsi que dans le traitement de données massives issues de la téléphonie mobile. Son travail soutient la production d’indicateurs fiables pour l’élaboration des politiques publiques.
+
+project: "Collecte automatisée de données économiques et modélisation statistique appliquée"
+affiliation: Anstat, Côte d’Ivoire
+image: avatar.jpg
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+page-layout: full
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ab.doumbia@stat.plan.gouv.ci
+    - icon: github
+      text: GitHub
+      href: https://github.com/cae-ins
+    - icon: mortarboard
+      text: Profil AssessFirst
+      href: https://app.assessfirst.com/profile/bbea8ak8-abdoulaye-doumbia
+---
+
+<hr>
+
+:::{#about}
+
+**Doumbia Abdoulaye** est Data Scientist à l’**Anstat** (Agence Nationale de la Statistique) de Côte d’Ivoire. Il développe des outils d’automatisation pour la collecte de données à partir du web et des plateformes numériques (offres d’emploi, e-commerce, etc.). Il participe activement à l’intégration de données massives pour améliorer les indicateurs économiques, notamment ceux liés au marché du travail et aux prix à la consommation.
+
+## Éducation
+- **Master Data Science, Big Data et IA**, INPHB, Yamoussoukro | 2021
+- **Master Analyse Numérique et Optimisation**, Université Nagui Abrogoua | 2017
+- **Licence en Mathématiques**, Université Nagui Abrogoua | 2016
+
+## Projets
+
+1. **Scraping des offres d’emploi en Côte d’Ivoire** (Depuis 2024)  
+   - Objectif : Suivre l’évolution du marché de l’emploi formel via des plateformes comme Emploi.ci, Educarriere, Novojob, etc.  
+   - Actions : Mise en place de scripts robustes pour l’extraction quotidienne et centralisée des offres d’emploi.  
+   - Impact : Production d’indicateurs sur les secteurs porteurs, les profils les plus demandés et les tendances régionales.
+
+2. **Suivi des prix à la consommation sur les plateformes e-commerce** (Depuis 2023)  
+   - Objectif : Analyser l’évolution des prix sur les sites comme Jumia pour alimenter l’indice des prix à la consommation.  
+   - Actions : Écriture de scripts Python pour la collecte automatique de prix ; traitement des données pour détection d’anomalies.  
+   - Impact : Meilleure réactivité dans l’observation de l’inflation numérique et des fluctuations des prix.
+
+3. **Analyse de données issues de la téléphonie mobile pour la statistique** (2022–2023)  
+   - Objectif : Exploiter les données de mobilité issues des téléphones pour comprendre les dynamiques spatiales.  
+   - Actions : Traitement sécurisé des données agrégées, visualisation cartographique et analyse exploratoire.  
+   - Impact : Amélioration des indicateurs de population mobile, migrations et accès aux services.
+
+4. **Mise en place de tableaux de bord interactifs pour l’Anstat** (En cours)  
+   - Objectif : Faciliter la visualisation des données collectées pour les équipes internes et les décideurs.  
+   - Actions : Développement d'interfaces avec Dash, Quarto et Streamlit.  
+   - Impact : Modernisation de la diffusion statistique et soutien à la prise de décision.
+
+:::

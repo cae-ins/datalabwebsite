@@ -1,0 +1,15 @@
+
+---
+title: "Production de l’Indice des Prix à la Consommation (IPC) via Web Scraping en Côte d’Ivoire"
+author: ["Bakayoko Abdoulaye", "Cellule d’Analyses Économiques (CAE)"]
+categories: 
+  - "indice-prix-consommation"
+url_source: "https://statbel.fgov.be/sites/default/files/files/documents/Analyse/FR/Webscraping_fr.pdf#:~:text=La%20pr%C3%A9sente%20analyse%20explique%20l%27utilisation%20du%20webscraping%20dans,%28DG%20Statistique%20Statistics%20Belgium%29%20traite-t-elle%20ces%20%E2%80%93%20donn%C3%A9es%3F"
+url_preprint: ""
+journ: "Projet méthodologique en cours"
+issue: 
+page: 
+year: 2025
+pub_number: 091
+image: "featured.jpg"
+---

@@ -1,0 +1,78 @@
+---
+title: "Rencontrez l'équipe du DataLab"
+
+listing:
+  - id: manager
+    include: 
+      people_group: "manager"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: data-scientists
+    include: 
+      people_group: "data-scientists"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: data-engineer
+    include: 
+      people_group: "data-engineer"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: alumni
+    include: 
+      people_group: "alumni"
+    exclude:
+      external: true
+    template: ../_ejs/alumni-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education, altsubtitle, alteducation]
+
+page-layout: full
+---
+
+<!-- Bloc d'accueil stylisé -->
+<div class="gradient-text" style="text-align:center; margin-top:2rem; margin-bottom:3rem;">
+  <div class="welcome-headline" style="font-size:2.5rem; font-weight:bold;">
+    Bienvenue au DataLab de l'Anstat
+  </div>
+  <div class="welcome-subheadline" style="font-size:1.5rem; margin-top:1rem; line-height:1.4;">
+    Data Science, Ingénierie de Données
+    et Innovation au service de la performance statistique
+    
+  </div>
+</div>
+
+---
+
+## 🚀 Direction du DataLab
+::: {#manager}
+:::
+
+---
+
+## 📊 Équipe Data Science
+::: {#data-scientists}
+:::
+
+---
+
+## 🛠️ Équipe Data Engineering
+::: {#data-engineer}
+:::
+
+---
+
+## 🎓 Anciens Membres du DataLab
+::: {#alumni}
+:::
