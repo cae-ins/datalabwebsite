@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-author","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-pub_number","listing-image","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -172,19 +172,19 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../people/index.html"> 
-<span class="menu-text">People</span></a>
+<span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html"> 
-<span class="menu-text">Research</span></a>
+<span class="menu-text">À propos</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publications/index.html"> 
-<span class="menu-text">Publications</span></a>
+<span class="menu-text">Projets</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../dmref/index.html"> 
-<span class="menu-text">NSF DMREF</span></a>
+<span class="menu-text">Ressources</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html"> 
@@ -192,7 +192,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../news/index.html"> 
-<span class="menu-text">News</span></a>
+<span class="menu-text">Actualités</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
@@ -302,6 +302,69 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
+    
+    
+    <div class="quarto-post image-right" data-index="0" data-categories="aW5kaWNlLXByaXgtY29uc29tbWF0aW9u" data-listing-file-modified-sort="1746458302843" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/publications\2025_091_chemical_interface_damping\index.qmd"> -->
+
+                <p>
+                    
+                    <img alt="Production de l’Indice des Prix à la Consommation (IPC) via Web Scraping en Côte d’Ivoire" src="../../publications/2025_091_chemical_interface_damping/featured.jpg" class="thumbnail-image">
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications\2025_091_chemical_interface_damping\index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Production de l’Indice des Prix à la Consommation (IPC) via Web Scraping en Côte d’Ivoire</div>
+            <!-- </a> -->
+            <!-- <a href="/publications\2025_091_chemical_interface_damping\index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Bakayoko Abdoulaye, Cellule d’Analyses Économiques (CAE)<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Projet méthodologique en cours</i> (2025)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('indice-prix-consommation'); return false;">indice-prix-consommation</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+            <div class="listing-pub-url">
+
+                    <a href="https://statbel.fgov.be/sites/default/files/files/documents/Analyse/FR/Webscraping_fr.pdf#:~:text=La%20pr%C3%A9sente%20analyse%20explique%20l%27utilisation%20du%20webscraping%20dans,%28DG%20Statistique%20Statistics%20Belgium%29%20traite-t-elle%20ces%20%E2%80%93%20donn%C3%A9es%3F">
+                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+  
+              
+
+        </div>
+    </div>
+    
     
     </div>
 
@@ -716,7 +779,7 @@ window.Quarto = {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="C:/Users/a_doumbia/Documents/Projets/MasielloGroupWebsite-main">
+    <a class="nav-link" href="C:/Users/a_doumbia/Documents/Projets/datalabwebsite">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
