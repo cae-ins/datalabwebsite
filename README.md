@@ -1,5 +1,6 @@
 ## Welcome to the Masiello Group Website Repository
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0f2eed56-75a1-4771-8c6b-88c4023b617a/deploy-status)](https://app.netlify.com/sites/datalabanstat/deploys)
+
 This website is built with [Quarto](https://quarto.org), an open source scientific and technical publishing system.
 
 Note: the `_utils` directory contains helper scripts used when migrating from Wowchemy / Hugo Academic to Quarto.
