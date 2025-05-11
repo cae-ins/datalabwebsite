@@ -18,8 +18,7 @@ Ce site, développé avec [Quarto](https://quarto.org/), sert de **plateforme co
 
 - **[Quarto](https://quarto.org/)** : génération du site statique.
 - **Markdown / Quarto Markdown (.qmd)** : rédaction du contenu.
-- **GitHub Pages** : hébergement du site web.
-- **R / Python (optionnel)** : pour l'intégration de données dynamiques ou de visualisations.
+- **Netlify** : hébergement du site web.
 
 ## 📁 Structure du dépôt
 
